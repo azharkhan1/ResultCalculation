@@ -90,7 +90,7 @@
             percentage.innerHTML = parseInt(percentage.innerHTML);
             total.innerHTML = `Total Marks are : ${maths + isl + eng}`;
     
-            percentage.innerHTML = "Percentage : " + (maths+isl+eng*100)/300;
+            percentage.innerHTML = "Percentage : " + ((maths+isl+eng)*100)/300;
 
             if (  percentage.innerHTML >= 80) {
                 grade.innerHTML = "Grade = A+";
